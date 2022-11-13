@@ -1,0 +1,75 @@
+nav {
+
+
+    background-color: #333;
+    overflow: hidden;
+  
+    
+
+}
+
+body {
+    background-color: aliceblue;
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+
+
+header>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+nav>ul {
+
+    
+    list-style: none;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    
+    background-color: white;
+}
+
+nav li {
+    display: inline-block;
+
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+}
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1
+}
+
+#offer {
+   background-color: paleturquoise;
+}
+.bg {
+    background-image: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.immediate.co.uk%2Fproduction%2Fvolatile%2Fsites%2F30%2F2020%2F08%2Fsaucy-miso-mushrooms-with-udon-noodles-d3072ca.jpg&imgrefurl=https%3A%2F%2Fwww.bbcgoodfood.com%2Frecipes%2Fsaucy-miso-mushrooms-udon-noodles&tbnid=ibdRKtRGgHWNrM&vet=12ahUKEwi88KW7iqv7AhUOeBoKHVK2ANAQMygVegUIARCHAg..i&docid=xjkI3tUVuOWiFM&w=2365&h=2151&q=saucy%20noodles&client=firefox-b-lm&ved=2ahUKEwi88KW7iqv7AhUOeBoKHVK2ANAQMygVegUIARCHAg');
+    color:#333;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Little Lemon</title>
+    <meta name="description" content="A brief description about Little Lemon">
+    <meta name="author" content="Little Lemon restaurant">
+
+    <!--Including your CSS files-->
+    <link rel="stylesheet" href="CSS/restaurant.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+</head>
+
+<body>
+    <header>
+        <img src="h_logo.png">
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="menu.hml">Menu</a></li>
+            <li><a href="book.html">Book</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <article id="offer">
+                <h1 class="bg"><em>30% Off This Weekend!</em>
+                    
+                </h1>
+                <img src="letas.png"  alt="logo for little lemon">
+                <p>
+                   <b>Pay only 70%!</b> Book a breakfast with us now while it lasts. 
+                   Little Lemon is buzzing to have you for the promo!
+                </p>
+            </article>
+
+        </section>
+
+        <section>
+            <article id="one">
+                <h2>Our New Menu</h2>
+                <div><img src="salad.jpeg"></div>
+                
+                </div>
+                <p>
+                    Added new items to our 
+                    menu
+                    <b>Culture!</b>
+                    
+                
+            </article>
+
+            <article>
+                <h2>Book A Table</h2>
+                <img src="table.jpeg">
+                <form method="POST">
+                    <div>
+                        <label for="booking_date">Booking Date</label>
+                        <input type="Date" id="booking_date" name="booking_date">
+    
+                    </div>
+                    <div>
+                        <label for="booking_time">Select Time</label>
+                        <input type="Time" id="booking_time" name="booking_date">
+                        
+                    </div>
+                    <div>
+                        <label for="booking_location">Location</label>
+                        <input id="booking_location" name="booking_location" list="locations"> <!--Datalist to give a dropdown-->
+                        <datalist id="locations">
+                            <option value="Uptown">
+    
+                            </option>
+                            <option value="Downtown">
+    
+                            </option>
+    
+                        </datalist> 
+                        
+    
+    
+                    </div>
+                    
+    
+                    <button type="submit">Book Table</button>
+    
+                </form>
+                
+                <p>
+                    
+                    Book a slot now.
+                    We serve hot!
+                </p>
+            </article>
+            <article>
+                <h2>Opening Hours</h2>
+                <img src="open.png">
+                <p>
+                    <em><b>Monday - Sunday at 8am to 5pm!</b></em>
+                    
+                </p>
+            </article>
+    </main>
+    <footer>
+        <div>
+            <img src="logo.png">
+        </div>
+        <div>
+            <p>Copyright Little Lemon, All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+
+</html>
