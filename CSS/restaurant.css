@@ -1,5 +1,5 @@
 @media all and (max-width:720px) {
-    header > img{
+   body > header > img{
         width:400px;
         height:300px;
 }
